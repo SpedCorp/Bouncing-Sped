@@ -1,9 +1,11 @@
 @echo off
+color 0B
+setlocal EnableDelayedExpansion
+
 echo So...this is a project that basically is done by 2 random ass devs for fun.
-echo This is also used for installing libraries for python. 
-echo You will need python to use this.
-echo Thank you for reading!
-REM wget install 
+echo This is also used for installing libraries for python.
+echo You will need Python to use this.
+REM winget install
+timeout /t 2 >nul
 
-
-REM echo All done installing!
+echo All done installing!
