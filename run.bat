@@ -6,4 +6,4 @@ echo Thank you for reading!
 REM wget install 
 
 
-echo All done installing!
+REM echo All done installing!
