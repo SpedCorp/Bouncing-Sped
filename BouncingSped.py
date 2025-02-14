@@ -4,7 +4,7 @@ import pygame
 
 # Edit later to have the images built in to the code with file unix (i think)
 Speds_Faces = "Images"
-Speds_sp = [os.path.join(Speds_Faces, f) for f in os.listdir(Speds_Faces) if f.lower().endswith(('png', 'jpg', 'jpeg', 'gif'))]
+Speds_sp = [os.path.join(Speds_Faces, f) for f in os.listdir(Speds_Faces) if f.lower().endswith(('png', 'jpg', 'jpeg', 'gif', 'webp'))]
 if not Speds_sp:
     raise Exception("THE SPEDS ARE MISSING!!!")
 pygame.init()
