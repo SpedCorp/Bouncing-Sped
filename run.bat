@@ -8,4 +8,8 @@ echo You will need Python to use this.
 REM winget install
 timeout /t 2 >nul
 
+BouncingSped.py
+
 echo All done installing!
+
+pause 
