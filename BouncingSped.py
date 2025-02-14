@@ -1,6 +1,8 @@
 import os
 import random
 import pygame
+#import logging
+#from datetime import datetime 
 
 # Edit later to have the images built in to the code with file unix (i think)
 Speds_Faces = "Images"
